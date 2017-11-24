@@ -5,7 +5,7 @@
       "category": "hue",
       "type": "primary",
       "code": {
-        "rgba": [255,255,255,1],
+        "rgba": [245,255,255,1],
         "hex": "#000"
       }
     },
