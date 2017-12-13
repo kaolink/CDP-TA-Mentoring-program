@@ -1,0 +1,34 @@
+=> UnitTestProjectForCalc.NUnitTests.Abs_N
+Testing of Abs has been started!
+Testing of Abs has been finished!
+=> UnitTestProjectForCalc.NUnitTests.Add_N
+Testing of Add has been started!
+Testing of Add has been finished!
+=> UnitTestProjectForCalc.NUnitTests.Cos_N
+Testing of Cos has been started!
+Testing of Cos has been finished!
+=> UnitTestProjectForCalc.NUnitTests.Divide_N
+Testing of Divide has been started!
+Testing of Divide has been started!
+Testing of Divide has been finished!
+=> UnitTestProjectForCalc.NUnitTests.Multiply_N
+Testing of Multiply has been started!
+Testing of Multiply has been finished!
+=> UnitTestProjectForCalc.NUnitTests.Negative_N
+Testing of Negative has been started!
+Testing of Negative has been finished!
+=> UnitTestProjectForCalc.NUnitTests.Positive_N
+Testing of Positive has been started!
+Testing of Positive has been finished!
+=> UnitTestProjectForCalc.NUnitTests.Pow_N
+Testing of Pow has been started!
+Testing of Pow has been finished!
+=> UnitTestProjectForCalc.NUnitTests.Sin_N
+Testing of Sin has been started!
+Testing of Sin has been finished!
+=> UnitTestProjectForCalc.NUnitTests.Sqrt_N
+Testing of Sqrt has been started!
+Testing of Sqrt has been finished!
+=> UnitTestProjectForCalc.NUnitTests.Sub_N
+Testing of Sub has been started!
+Testing of Sub has been finished!

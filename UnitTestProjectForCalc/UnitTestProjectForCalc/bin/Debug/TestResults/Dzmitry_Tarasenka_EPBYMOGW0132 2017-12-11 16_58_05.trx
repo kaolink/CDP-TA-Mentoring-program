@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8fad7284-4c82-4e32-bfca-6e0f9fe99a0b" name="Dzmitry_Tarasenka@EPBYMOGW0132 2017-12-11 16:58:05" runUser="MINSK\Dzmitry_Tarasenka" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="75992e2b-009f-4ca5-90ac-ebae0ddbbe72">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="Dzmitry_Tarasenka_EPBYMOGW0132 2017-12-11 16_58_05" />
+    <Properties />
+  </TestSettings>
+  <Times creation="2017-12-11T16:58:05.6554927+03:00" queuing="2017-12-11T16:58:06.4949278+03:00" start="2017-12-11T16:58:06.5510758+03:00" finish="2017-12-11T16:58:06.6336826+03:00" />
+  <ResultSummary outcome="NotRunnable">
+    <Counters total="11" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="11" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CheckAdd" storage="unittestprojectforcalc.dll" id="84ce72d6-b8f9-a144-6b0c-c777017cdd93">
+      <Execution id="d74e1311-e8ea-4cf1-ba93-bb607d3d3576" />
+      <TestMethod codeBase="D:/Learn/Automation/CDP/Home Task/Task4/Code/UnitTestProjectForCalc/UnitTestProjectForCalc/bin/Debug/UnitTestProjectForCalc.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestProjectForCalc.Add_MS, UnitTestProjectForCalc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckAdd" />
+    </UnitTest>
+    <UnitTest name="CheckMultiply" storage="unittestprojectforcalc.dll" id="a61a9794-2c3b-d950-48d2-530adb653ac7">
+      <Execution id="6677e2c7-6e49-4e2f-b907-a9bff1a1e240" />
+      <TestMethod codeBase="D:/Learn/Automation/CDP/Home Task/Task4/Code/UnitTestProjectForCalc/UnitTestProjectForCalc/bin/Debug/UnitTestProjectForCalc.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestProjectForCalc.Multiply_MS, UnitTestProjectForCalc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckMultiply" />
+    </UnitTest>
+    <UnitTest name="CheckisNegative" storage="unittestprojectforcalc.dll" id="89903315-d2a0-776d-b116-11736ac94c37">
+      <Execution id="6a8329e9-a80a-4664-b9f4-d07ca193d5df" />
+      <TestMethod codeBase="D:/Learn/Automation/CDP/Home Task/Task4/Code/UnitTestProjectForCalc/UnitTestProjectForCalc/bin/Debug/UnitTestProjectForCalc.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestProjectForCalc.Negative_MS, UnitTestProjectForCalc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckisNegative" />
+    </UnitTest>
+    <UnitTest name="CheckSub" storage="unittestprojectforcalc.dll" id="c8e5d61e-c9ae-dea4-6bfb-753d821f9014">
+      <Execution id="1f89e8a9-4278-43ed-8600-21c41b603a13" />
+      <TestMethod codeBase="D:/Learn/Automation/CDP/Home Task/Task4/Code/UnitTestProjectForCalc/UnitTestProjectForCalc/bin/Debug/UnitTestProjectForCalc.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestProjectForCalc.Sub_MS, UnitTestProjectForCalc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckSub" />
+    </UnitTest>
+    <UnitTest name="CheckSqrt" storage="unittestprojectforcalc.dll" id="74240eff-4e38-3b87-1f59-88887b4b9785">
+      <Execution id="6d238b4d-24fa-43dc-a750-b0eccc6808f9" />
+      <TestMethod codeBase="D:/Learn/Automation/CDP/Home Task/Task4/Code/UnitTestProjectForCalc/UnitTestProjectForCalc/bin/Debug/UnitTestProjectForCalc.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestProjectForCalc.Sqrt, UnitTestProjectForCalc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckSqrt" />
+    </UnitTest>
+    <UnitTest name="CheckDev" storage="unittestprojectforcalc.dll" id="89d66ad2-ce34-9cb2-943d-e289cb63e478">
+      <Execution id="43fc4cc6-8063-4d13-a360-341201387b52" />
+      <TestMethod codeBase="D:/Learn/Automation/CDP/Home Task/Task4/Code/UnitTestProjectForCalc/UnitTestProjectForCalc/bin/Debug/UnitTestProjectForCalc.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestProjectForCalc.Devide_MS, UnitTestProjectForCalc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckDev" />
+    </UnitTest>
+    <UnitTest name="CheckSin" storage="unittestprojectforcalc.dll" id="18ed01ea-5997-8232-a0a7-1bd9b6debc05">
+      <Execution id="7ef06654-d33e-4991-8310-99c8ccbe1b2d" />
+      <TestMethod codeBase="D:/Learn/Automation/CDP/Home Task/Task4/Code/UnitTestProjectForCalc/UnitTestProjectForCalc/bin/Debug/UnitTestProjectForCalc.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestProjectForCalc.Sin_MS, UnitTestProjectForCalc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckSin" />
+    </UnitTest>
+    <UnitTest name="CheckAbs" storage="unittestprojectforcalc.dll" id="3b9ed0b2-3397-f682-ab84-bf7f159c1cc2">
+      <Execution id="4272395a-196c-4996-b491-2a131060a830" />
+      <TestMethod codeBase="D:/Learn/Automation/CDP/Home Task/Task4/Code/UnitTestProjectForCalc/UnitTestProjectForCalc/bin/Debug/UnitTestProjectForCalc.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestProjectForCalc.Abs_MS, UnitTestProjectForCalc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckAbs" />
+    </UnitTest>
+    <UnitTest name="CheckPow" storage="unittestprojectforcalc.dll" id="24da2019-d022-fe71-0506-2e33c4f3c76c">
+      <Execution id="3c46adc1-a219-4f2a-8e74-13b3484408d0" />
+      <TestMethod codeBase="D:/Learn/Automation/CDP/Home Task/Task4/Code/UnitTestProjectForCalc/UnitTestProjectForCalc/bin/Debug/UnitTestProjectForCalc.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestProjectForCalc.Pow_MS, UnitTestProjectForCalc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckPow" />
+    </UnitTest>
+    <UnitTest name="CheckCos" storage="unittestprojectforcalc.dll" id="cba1103f-2ed3-2c1d-31d4-d8ca13907e5e">
+      <Execution id="1a537838-8e96-42bd-ad99-ce6deca7022a" />
+      <TestMethod codeBase="D:/Learn/Automation/CDP/Home Task/Task4/Code/UnitTestProjectForCalc/UnitTestProjectForCalc/bin/Debug/UnitTestProjectForCalc.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestProjectForCalc.Cos_MS, UnitTestProjectForCalc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckCos" />
+    </UnitTest>
+    <UnitTest name="CheckisPositive" storage="unittestprojectforcalc.dll" id="6cf258c7-28fe-c53d-e311-cc4b42cd001d">
+      <Execution id="97440557-044e-48f8-9090-77880d953e05" />
+      <TestMethod codeBase="D:/Learn/Automation/CDP/Home Task/Task4/Code/UnitTestProjectForCalc/UnitTestProjectForCalc/bin/Debug/UnitTestProjectForCalc.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestProjectForCalc.Positive_MS, UnitTestProjectForCalc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckisPositive" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3b9ed0b2-3397-f682-ab84-bf7f159c1cc2" executionId="4272395a-196c-4996-b491-2a131060a830" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="84ce72d6-b8f9-a144-6b0c-c777017cdd93" executionId="d74e1311-e8ea-4cf1-ba93-bb607d3d3576" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cba1103f-2ed3-2c1d-31d4-d8ca13907e5e" executionId="1a537838-8e96-42bd-ad99-ce6deca7022a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="89d66ad2-ce34-9cb2-943d-e289cb63e478" executionId="43fc4cc6-8063-4d13-a360-341201387b52" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a61a9794-2c3b-d950-48d2-530adb653ac7" executionId="6677e2c7-6e49-4e2f-b907-a9bff1a1e240" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="89903315-d2a0-776d-b116-11736ac94c37" executionId="6a8329e9-a80a-4664-b9f4-d07ca193d5df" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6cf258c7-28fe-c53d-e311-cc4b42cd001d" executionId="97440557-044e-48f8-9090-77880d953e05" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="24da2019-d022-fe71-0506-2e33c4f3c76c" executionId="3c46adc1-a219-4f2a-8e74-13b3484408d0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="18ed01ea-5997-8232-a0a7-1bd9b6debc05" executionId="7ef06654-d33e-4991-8310-99c8ccbe1b2d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="74240eff-4e38-3b87-1f59-88887b4b9785" executionId="6d238b4d-24fa-43dc-a750-b0eccc6808f9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c8e5d61e-c9ae-dea4-6bfb-753d821f9014" executionId="1f89e8a9-4278-43ed-8600-21c41b603a13" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4272395a-196c-4996-b491-2a131060a830" testId="3b9ed0b2-3397-f682-ab84-bf7f159c1cc2" testName="CheckAbs" computerName="EPBYMOGW0132" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotRunnable" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4272395a-196c-4996-b491-2a131060a830">
+      <Output>
+        <ErrorInfo>
+          <Message>UTA007: Method CheckAbs defined in class UnitTestProjectForCalc.Abs_MS does not have correct signature. Test method marked with the [TestMethod] attribute must be non-static, public, does not return a value and should not take any parameter. for example: public void Test.Class1.Test().  Additionally, return-type must be Task if you are running async unit tests. Example: public async Task Test.Class1.Test2().</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d74e1311-e8ea-4cf1-ba93-bb607d3d3576" testId="84ce72d6-b8f9-a144-6b0c-c777017cdd93" testName="CheckAdd" computerName="EPBYMOGW0132" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotRunnable" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d74e1311-e8ea-4cf1-ba93-bb607d3d3576">
+      <Output>
+        <ErrorInfo>
+          <Message>UTA007: Method CheckAdd defined in class UnitTestProjectForCalc.Add_MS does not have correct signature. Test method marked with the [TestMethod] attribute must be non-static, public, does not return a value and should not take any parameter. for example: public void Test.Class1.Test().  Additionally, return-type must be Task if you are running async unit tests. Example: public async Task Test.Class1.Test2().</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1a537838-8e96-42bd-ad99-ce6deca7022a" testId="cba1103f-2ed3-2c1d-31d4-d8ca13907e5e" testName="CheckCos" computerName="EPBYMOGW0132" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotRunnable" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1a537838-8e96-42bd-ad99-ce6deca7022a">
+      <Output>
+        <ErrorInfo>
+          <Message>UTA007: Method CheckCos defined in class UnitTestProjectForCalc.Cos_MS does not have correct signature. Test method marked with the [TestMethod] attribute must be non-static, public, does not return a value and should not take any parameter. for example: public void Test.Class1.Test().  Additionally, return-type must be Task if you are running async unit tests. Example: public async Task Test.Class1.Test2().</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="43fc4cc6-8063-4d13-a360-341201387b52" testId="89d66ad2-ce34-9cb2-943d-e289cb63e478" testName="CheckDev" computerName="EPBYMOGW0132" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotRunnable" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43fc4cc6-8063-4d13-a360-341201387b52">
+      <Output>
+        <ErrorInfo>
+          <Message>UTA007: Method CheckDev defined in class UnitTestProjectForCalc.Devide_MS does not have correct signature. Test method marked with the [TestMethod] attribute must be non-static, public, does not return a value and should not take any parameter. for example: public void Test.Class1.Test().  Additionally, return-type must be Task if you are running async unit tests. Example: public async Task Test.Class1.Test2().</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6677e2c7-6e49-4e2f-b907-a9bff1a1e240" testId="a61a9794-2c3b-d950-48d2-530adb653ac7" testName="CheckMultiply" computerName="EPBYMOGW0132" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotRunnable" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6677e2c7-6e49-4e2f-b907-a9bff1a1e240">
+      <Output>
+        <ErrorInfo>
+          <Message>UTA007: Method CheckMultiply defined in class UnitTestProjectForCalc.Multiply_MS does not have correct signature. Test method marked with the [TestMethod] attribute must be non-static, public, does not return a value and should not take any parameter. for example: public void Test.Class1.Test().  Additionally, return-type must be Task if you are running async unit tests. Example: public async Task Test.Class1.Test2().</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6a8329e9-a80a-4664-b9f4-d07ca193d5df" testId="89903315-d2a0-776d-b116-11736ac94c37" testName="CheckisNegative" computerName="EPBYMOGW0132" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotRunnable" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6a8329e9-a80a-4664-b9f4-d07ca193d5df">
+      <Output>
+        <ErrorInfo>
+          <Message>UTA007: Method CheckisNegative defined in class UnitTestProjectForCalc.Negative_MS does not have correct signature. Test method marked with the [TestMethod] attribute must be non-static, public, does not return a value and should not take any parameter. for example: public void Test.Class1.Test().  Additionally, return-type must be Task if you are running async unit tests. Example: public async Task Test.Class1.Test2().</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="97440557-044e-48f8-9090-77880d953e05" testId="6cf258c7-28fe-c53d-e311-cc4b42cd001d" testName="CheckisPositive" computerName="EPBYMOGW0132" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotRunnable" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="97440557-044e-48f8-9090-77880d953e05">
+      <Output>
+        <ErrorInfo>
+          <Message>UTA007: Method CheckisPositive defined in class UnitTestProjectForCalc.Positive_MS does not have correct signature. Test method marked with the [TestMethod] attribute must be non-static, public, does not return a value and should not take any parameter. for example: public void Test.Class1.Test().  Additionally, return-type must be Task if you are running async unit tests. Example: public async Task Test.Class1.Test2().</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3c46adc1-a219-4f2a-8e74-13b3484408d0" testId="24da2019-d022-fe71-0506-2e33c4f3c76c" testName="CheckPow" computerName="EPBYMOGW0132" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotRunnable" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3c46adc1-a219-4f2a-8e74-13b3484408d0">
+      <Output>
+        <ErrorInfo>
+          <Message>UTA007: Method CheckPow defined in class UnitTestProjectForCalc.Pow_MS does not have correct signature. Test method marked with the [TestMethod] attribute must be non-static, public, does not return a value and should not take any parameter. for example: public void Test.Class1.Test().  Additionally, return-type must be Task if you are running async unit tests. Example: public async Task Test.Class1.Test2().</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7ef06654-d33e-4991-8310-99c8ccbe1b2d" testId="18ed01ea-5997-8232-a0a7-1bd9b6debc05" testName="CheckSin" computerName="EPBYMOGW0132" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotRunnable" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7ef06654-d33e-4991-8310-99c8ccbe1b2d">
+      <Output>
+        <ErrorInfo>
+          <Message>UTA007: Method CheckSin defined in class UnitTestProjectForCalc.Sin_MS does not have correct signature. Test method marked with the [TestMethod] attribute must be non-static, public, does not return a value and should not take any parameter. for example: public void Test.Class1.Test().  Additionally, return-type must be Task if you are running async unit tests. Example: public async Task Test.Class1.Test2().</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6d238b4d-24fa-43dc-a750-b0eccc6808f9" testId="74240eff-4e38-3b87-1f59-88887b4b9785" testName="CheckSqrt" computerName="EPBYMOGW0132" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotRunnable" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6d238b4d-24fa-43dc-a750-b0eccc6808f9">
+      <Output>
+        <ErrorInfo>
+          <Message>UTA007: Method CheckSqrt defined in class UnitTestProjectForCalc.Sqrt does not have correct signature. Test method marked with the [TestMethod] attribute must be non-static, public, does not return a value and should not take any parameter. for example: public void Test.Class1.Test().  Additionally, return-type must be Task if you are running async unit tests. Example: public async Task Test.Class1.Test2().</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1f89e8a9-4278-43ed-8600-21c41b603a13" testId="c8e5d61e-c9ae-dea4-6bfb-753d821f9014" testName="CheckSub" computerName="EPBYMOGW0132" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotRunnable" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1f89e8a9-4278-43ed-8600-21c41b603a13">
+      <Output>
+        <ErrorInfo>
+          <Message>UTA007: Method CheckSub defined in class UnitTestProjectForCalc.Sub_MS does not have correct signature. Test method marked with the [TestMethod] attribute must be non-static, public, does not return a value and should not take any parameter. for example: public void Test.Class1.Test().  Additionally, return-type must be Task if you are running async unit tests. Example: public async Task Test.Class1.Test2().</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
