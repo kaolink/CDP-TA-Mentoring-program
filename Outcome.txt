@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="52" result="Failed" total="52" passed="40" failed="12" inconclusive="0" skipped="0" asserts="47" engine-version="3.7.0.0" clr-version="4.0.30319.42000" start-time="2017-12-12 16:03:35Z" end-time="2017-12-12 16:03:36Z" duration="0.686869">
+  <command-line><![CDATA[nunit3-console.exe  UnitTestProjectForCalc.dll /result:D:\Learn\Automation\CDP\Outcome.txt]]></command-line>
+  <test-suite type="Assembly" id="0-1074" name="UnitTestProjectForCalc.dll" fullname="D:\Learn\Automation\CDP\Home Task\Task4\Code\UnitTestProjectForCalc\UnitTestProjectForCalc\bin\Debug\UnitTestProjectForCalc.dll" runstate="Runnable" testcasecount="52" result="Failed" site="Child" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.110909" total="52" passed="40" failed="12" warnings="0" inconclusive="0" skipped="0" asserts="47">
+    <environment framework-version="3.9.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.14393.0" platform="Win32NT" cwd="D:\Learn\Automation\CDP\Home Task\Task4\Code\UnitTestProjectForCalc\UnitTestProjectForCalc\bin\Debug" machine-name="EPBYMOGW0132" user="Dzmitry_Tarasenka" user-domain="MINSK" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="D:\Learn\Automation\CDP\Home Task\Task4\Code\UnitTestProjectForCalc\UnitTestProjectForCalc\bin\Debug" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.6.1" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="8" />
+    </settings>
+    <properties>
+      <property name="_PID" value="9548" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="0-1075" name="UnitTestProjectForCalc" fullname="UnitTestProjectForCalc" runstate="Runnable" testcasecount="52" result="Failed" site="Child" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.094736" total="52" passed="40" failed="12" warnings="0" inconclusive="0" skipped="0" asserts="47">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="0-1076" name="NUnitTests" fullname="UnitTestProjectForCalc.NUnitTests" runstate="Runnable" testcasecount="52" result="Failed" site="Child" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.094080" total="52" passed="40" failed="12" warnings="0" inconclusive="0" skipped="0" asserts="47">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestFixture" id="0-1000" name="Abs_N" fullname="UnitTestProjectForCalc.NUnitTests.Abs_N" classname="UnitTestProjectForCalc.NUnitTests.Abs_N" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.064005" total="4" passed="1" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="4">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <output><![CDATA[Testing of Abs has been started!
+Testing of Abs has been finished!
+]]></output>
+          <test-suite type="ParameterizedMethod" id="0-1005" name="CheckAbs" fullname="UnitTestProjectForCalc.NUnitTests.Abs_N.CheckAbs" classname="UnitTestProjectForCalc.NUnitTests.Abs_N" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.053489" total="4" passed="1" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="4">
+            <properties>
+              <property name="Description" value="Check that method returns abs value of input number" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="0-1001" name="CheckAbs(&quot;-0.2&quot;)" fullname="UnitTestProjectForCalc.NUnitTests.Abs_N.CheckAbs(&quot;-0.2&quot;)" methodname="CheckAbs" classname="UnitTestProjectForCalc.NUnitTests.Abs_N" runstate="Runnable" seed="871483495" result="Failed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.047309" asserts="1">
+              <failure>
+                <message><![CDATA[  ABS of '-0.2' should be '0.2' but was '0'
+  Expected: 0.20000000000000001d
+  But was:  0.0d
+]]></message>
+                <stack-trace><![CDATA[   at UnitTestProjectForCalc.NUnitTests.Abs_N.CheckAbs(Object number) in D:\Learn\Automation\CDP\Home Task\Task4\Code\UnitTestProjectForCalc\UnitTestProjectForCalc\NUnitTests\Abs_N.cs:line 24
+]]></stack-trace>
+              </failure>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[  ABS of '-0.2' should be '0.2' but was '0'
+  Expected: 0.20000000000000001d
+  But was:  0.0d
+]]></message>
+                  <stack-trace><![CDATA[   at UnitTestProjectForCalc.NUnitTests.Abs_N.CheckAbs(Object number) in D:\Learn\Automation\CDP\Home Task\Task4\Code\UnitTestProjectForCalc\UnitTestProjectForCalc\NUnitTests\Abs_N.cs:line 24
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+            <test-case id="0-1002" name="CheckAbs(-1.1d)" fullname="UnitTestProjectForCalc.NUnitTests.Abs_N.CheckAbs(-1.1d)" methodname="CheckAbs" classname="UnitTestProjectForCalc.NUnitTests.Abs_N" runstate="Runnable" seed="1312927571" result="Failed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000628" asserts="1">
+              <failure>
+                <message><![CDATA[  ABS of '-1.1' should be '1.1' but was '1'
+  Expected: 1.1000000000000001d
+  But was:  1.0d
+]]></message>
+                <stack-trace><![CDATA[   at UnitTestProjectForCalc.NUnitTests.Abs_N.CheckAbs(Object number) in D:\Learn\Automation\CDP\Home Task\Task4\Code\UnitTestProjectForCalc\UnitTestProjectForCalc\NUnitTests\Abs_N.cs:line 24
+]]></stack-trace>
+              </failure>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[  ABS of '-1.1' should be '1.1' but was '1'
+  Expected: 1.1000000000000001d
+  But was:  1.0d
+]]></message>
+                  <stack-trace><![CDATA[   at UnitTestProjectForCalc.NUnitTests.Abs_N.CheckAbs(Object number) in D:\Learn\Automation\CDP\Home Task\Task4\Code\UnitTestProjectForCalc\UnitTestProjectForCalc\NUnitTests\Abs_N.cs:line 24
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+            <test-case id="0-1003" name="CheckAbs(0.1d)" fullname="UnitTestProjectForCalc.NUnitTests.Abs_N.CheckAbs(0.1d)" methodname="CheckAbs" classname="UnitTestProjectForCalc.NUnitTests.Abs_N" runstate="Runnable" seed="2034318760" result="Failed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000439" asserts="1">
+              <failure>
+                <message><![CDATA[  ABS of '0.1' should be '0.1' but was '0'
+  Expected: 0.10000000000000001d
+  But was:  0.0d
+]]></message>
+                <stack-trace><![CDATA[   at UnitTestProjectForCalc.NUnitTests.Abs_N.CheckAbs(Object number) in D:\Learn\Automation\CDP\Home Task\Task4\Code\UnitTestProjectForCalc\UnitTestProjectForCalc\NUnitTests\Abs_N.cs:line 24
+]]></stack-trace>
+              </failure>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[  ABS of '0.1' should be '0.1' but was '0'
+  Expected: 0.10000000000000001d
+  But was:  0.0d
+]]></message>
+                  <stack-trace><![CDATA[   at UnitTestProjectForCalc.NUnitTests.Abs_N.CheckAbs(Object number) in D:\Learn\Automation\CDP\Home Task\Task4\Code\UnitTestProjectForCalc\UnitTestProjectForCalc\NUnitTests\Abs_N.cs:line 24
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+            <test-case id="0-1004" name="CheckAbs(0)" fullname="UnitTestProjectForCalc.NUnitTests.Abs_N.CheckAbs(0)" methodname="CheckAbs" classname="UnitTestProjectForCalc.NUnitTests.Abs_N" runstate="Runnable" seed="688138232" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000052" asserts="1" />
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestFixture" id="0-1006" name="Add_N" fullname="UnitTestProjectForCalc.NUnitTests.Add_N" classname="UnitTestProjectForCalc.NUnitTests.Add_N" runstate="Runnable" testcasecount="2" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.003504" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+          <output><![CDATA[Testing of Add has been started!
+Testing of Add has been finished!
+]]></output>
+          <test-suite type="ParameterizedMethod" id="0-1009" name="CheckAdd" fullname="UnitTestProjectForCalc.NUnitTests.Add_N.CheckAdd" classname="UnitTestProjectForCalc.NUnitTests.Add_N" runstate="Runnable" testcasecount="2" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000737" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+            <properties>
+              <property name="Description" value="Check that method returns a result from add of two input values" />
+            </properties>
+            <test-case id="0-1007" name="CheckAdd(&quot;5.43&quot;,&quot;4.11&quot;)" fullname="UnitTestProjectForCalc.NUnitTests.Add_N.CheckAdd(&quot;5.43&quot;,&quot;4.11&quot;)" methodname="CheckAdd" classname="UnitTestProjectForCalc.NUnitTests.Add_N" runstate="Runnable" seed="1591675343" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000658" asserts="1" />
+            <test-case id="0-1008" name="CheckAdd(5.43d,7.12d)" fullname="UnitTestProjectForCalc.NUnitTests.Add_N.CheckAdd(5.43d,7.12d)" methodname="CheckAdd" classname="UnitTestProjectForCalc.NUnitTests.Add_N" runstate="Runnable" seed="1451359888" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000046" asserts="1" />
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestFixture" id="0-1010" name="Cos_N" fullname="UnitTestProjectForCalc.NUnitTests.Cos_N" classname="UnitTestProjectForCalc.NUnitTests.Cos_N" runstate="Runnable" testcasecount="9" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.001161" total="9" passed="9" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="9">
+          <output><![CDATA[Testing of Cos has been started!
+Testing of Cos has been finished!
+]]></output>
+          <test-suite type="ParameterizedMethod" id="0-1020" name="CheckCos" fullname="UnitTestProjectForCalc.NUnitTests.Cos_N.CheckCos" classname="UnitTestProjectForCalc.NUnitTests.Cos_N" runstate="Runnable" testcasecount="9" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000899" total="9" passed="9" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="9">
+            <properties>
+              <property name="Description" value="Check that method returns Cos of input angle" />
+            </properties>
+            <test-case id="0-1011" name="CheckCos(&quot;0&quot;)" fullname="UnitTestProjectForCalc.NUnitTests.Cos_N.CheckCos(&quot;0&quot;)" methodname="CheckCos" classname="UnitTestProjectForCalc.NUnitTests.Cos_N" runstate="Runnable" seed="1817910040" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000419" asserts="1" />
+            <test-case id="0-1012" name="CheckCos(89.9d)" fullname="UnitTestProjectForCalc.NUnitTests.Cos_N.CheckCos(89.9d)" methodname="CheckCos" classname="UnitTestProjectForCalc.NUnitTests.Cos_N" runstate="Runnable" seed="2067143228" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000056" asserts="1" />
+            <test-case id="0-1013" name="CheckCos(90.1d)" fullname="UnitTestProjectForCalc.NUnitTests.Cos_N.CheckCos(90.1d)" methodname="CheckCos" classname="UnitTestProjectForCalc.NUnitTests.Cos_N" runstate="Runnable" seed="2064095280" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000046" asserts="1" />
+            <test-case id="0-1014" name="CheckCos(90)" fullname="UnitTestProjectForCalc.NUnitTests.Cos_N.CheckCos(90)" methodname="CheckCos" classname="UnitTestProjectForCalc.NUnitTests.Cos_N" runstate="Runnable" seed="751320488" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000044" asserts="1" />
+            <test-case id="0-1015" name="CheckCos(-89.9d)" fullname="UnitTestProjectForCalc.NUnitTests.Cos_N.CheckCos(-89.9d)" methodname="CheckCos" classname="UnitTestProjectForCalc.NUnitTests.Cos_N" runstate="Runnable" seed="2040700970" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000087" asserts="1" />
+            <test-case id="0-1016" name="CheckCos(-90)" fullname="UnitTestProjectForCalc.NUnitTests.Cos_N.CheckCos(-90)" methodname="CheckCos" classname="UnitTestProjectForCalc.NUnitTests.Cos_N" runstate="Runnable" seed="1990204817" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000044" asserts="1" />
+            <test-case id="0-1017" name="CheckCos(-90.1d)" fullname="UnitTestProjectForCalc.NUnitTests.Cos_N.CheckCos(-90.1d)" methodname="CheckCos" classname="UnitTestProjectForCalc.NUnitTests.Cos_N" runstate="Runnable" seed="1633583365" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000059" asserts="1" />
+            <test-case id="0-1018" name="CheckCos(360)" fullname="UnitTestProjectForCalc.NUnitTests.Cos_N.CheckCos(360)" methodname="CheckCos" classname="UnitTestProjectForCalc.NUnitTests.Cos_N" runstate="Runnable" seed="432227021" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000045" asserts="1" />
+            <test-case id="0-1019" name="CheckCos(360.1d)" fullname="UnitTestProjectForCalc.NUnitTests.Cos_N.CheckCos(360.1d)" methodname="CheckCos" classname="UnitTestProjectForCalc.NUnitTests.Cos_N" runstate="Runnable" seed="992517939" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000045" asserts="1" />
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestFixture" id="0-1021" name="Divide_N" fullname="UnitTestProjectForCalc.NUnitTests.Divide_N" classname="UnitTestProjectForCalc.NUnitTests.Divide_N" runstate="Runnable" testcasecount="5" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000809" total="5" passed="5" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="5">
+          <output><![CDATA[Testing of Divide has been started!
+Testing of Divide has been finished!
+]]></output>
+          <test-suite type="ParameterizedMethod" id="0-1027" name="CheckDev" fullname="UnitTestProjectForCalc.NUnitTests.Divide_N.CheckDev" classname="UnitTestProjectForCalc.NUnitTests.Divide_N" runstate="Runnable" testcasecount="5" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000615" total="5" passed="5" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="5">
+            <properties>
+              <property name="Description" value="Check that method returns result from divide of two input values" />
+            </properties>
+            <test-case id="0-1022" name="CheckDev(&quot;5.43&quot;,&quot;-4.11&quot;)" fullname="UnitTestProjectForCalc.NUnitTests.Divide_N.CheckDev(&quot;5.43&quot;,&quot;-4.11&quot;)" methodname="CheckDev" classname="UnitTestProjectForCalc.NUnitTests.Divide_N" runstate="Runnable" seed="1342692870" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000385" asserts="1" />
+            <test-case id="0-1023" name="CheckDev(5,8)" fullname="UnitTestProjectForCalc.NUnitTests.Divide_N.CheckDev(5,8)" methodname="CheckDev" classname="UnitTestProjectForCalc.NUnitTests.Divide_N" runstate="Runnable" seed="114265165" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000048" asserts="1" />
+            <test-case id="0-1024" name="CheckDev(6,0)" fullname="UnitTestProjectForCalc.NUnitTests.Divide_N.CheckDev(6,0)" methodname="CheckDev" classname="UnitTestProjectForCalc.NUnitTests.Divide_N" runstate="Runnable" seed="1593313726" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000039" asserts="1" />
+            <test-case id="0-1025" name="CheckDev(0,0)" fullname="UnitTestProjectForCalc.NUnitTests.Divide_N.CheckDev(0,0)" methodname="CheckDev" classname="UnitTestProjectForCalc.NUnitTests.Divide_N" runstate="Runnable" seed="861835227" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000070" asserts="1" />
+            <test-case id="0-1026" name="CheckDev(1,0.12d)" fullname="UnitTestProjectForCalc.NUnitTests.Divide_N.CheckDev(1,0.12d)" methodname="CheckDev" classname="UnitTestProjectForCalc.NUnitTests.Divide_N" runstate="Runnable" seed="129037342" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000037" asserts="1" />
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestFixture" id="0-1028" name="Multiply_N" fullname="UnitTestProjectForCalc.NUnitTests.Multiply_N" classname="UnitTestProjectForCalc.NUnitTests.Multiply_N" runstate="Runnable" testcasecount="4" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000772" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+          <output><![CDATA[Testing of Multiply has been started!
+Testing of Multiply has been finished!
+]]></output>
+          <test-suite type="ParameterizedMethod" id="0-1033" name="CheckMultiply" fullname="UnitTestProjectForCalc.NUnitTests.Multiply_N.CheckMultiply" classname="UnitTestProjectForCalc.NUnitTests.Multiply_N" runstate="Runnable" testcasecount="4" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000566" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+            <properties>
+              <property name="Description" value="Check that method returns result from multiply of two input values" />
+            </properties>
+            <test-case id="0-1029" name="CheckMultiply(&quot;1.15&quot;,&quot;-8.094&quot;)" fullname="UnitTestProjectForCalc.NUnitTests.Multiply_N.CheckMultiply(&quot;1.15&quot;,&quot;-8.094&quot;)" methodname="CheckMultiply" classname="UnitTestProjectForCalc.NUnitTests.Multiply_N" runstate="Runnable" seed="1169280249" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000412" asserts="1" />
+            <test-case id="0-1030" name="CheckMultiply(2.18d,3.12d)" fullname="UnitTestProjectForCalc.NUnitTests.Multiply_N.CheckMultiply(2.18d,3.12d)" methodname="CheckMultiply" classname="UnitTestProjectForCalc.NUnitTests.Multiply_N" runstate="Runnable" seed="1937029796" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000048" asserts="1" />
+            <test-case id="0-1031" name="CheckMultiply(5,0)" fullname="UnitTestProjectForCalc.NUnitTests.Multiply_N.CheckMultiply(5,0)" methodname="CheckMultiply" classname="UnitTestProjectForCalc.NUnitTests.Multiply_N" runstate="Runnable" seed="1081470223" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000035" asserts="1" />
+            <test-case id="0-1032" name="CheckMultiply(-0.2d,-0.854d)" fullname="UnitTestProjectForCalc.NUnitTests.Multiply_N.CheckMultiply(-0.2d,-0.854d)" methodname="CheckMultiply" classname="UnitTestProjectForCalc.NUnitTests.Multiply_N" runstate="Runnable" seed="375539991" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000037" asserts="1" />
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestFixture" id="0-1034" name="Negative_N" fullname="UnitTestProjectForCalc.NUnitTests.Negative_N" classname="UnitTestProjectForCalc.NUnitTests.Negative_N" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.006577" total="3" passed="2" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="3">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <output><![CDATA[Testing of Negative has been started!
+Testing of Negative has been finished!
+]]></output>
+          <test-suite type="ParameterizedMethod" id="0-1038" name="CheckisNegative" fullname="UnitTestProjectForCalc.NUnitTests.Negative_N.CheckisNegative" classname="UnitTestProjectForCalc.NUnitTests.Negative_N" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.006339" total="3" passed="2" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="3">
+            <properties>
+              <property name="Description" value="Check is input number Negative" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="0-1035" name="CheckisNegative(&quot;0.1&quot;)" fullname="UnitTestProjectForCalc.NUnitTests.Negative_N.CheckisNegative(&quot;0.1&quot;)" methodname="CheckisNegative" classname="UnitTestProjectForCalc.NUnitTests.Negative_N" runstate="Runnable" seed="1807116611" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.004046" asserts="1" />
+            <test-case id="0-1036" name="CheckisNegative(0)" fullname="UnitTestProjectForCalc.NUnitTests.Negative_N.CheckisNegative(0)" methodname="CheckisNegative" classname="UnitTestProjectForCalc.NUnitTests.Negative_N" runstate="Runnable" seed="430717132" result="Failed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.002177" asserts="1">
+              <failure>
+                <message><![CDATA[  0 identifyed as negative
+  Expected: False
+  But was:  True
+]]></message>
+                <stack-trace><![CDATA[   at UnitTestProjectForCalc.NUnitTests.Negative_N.CheckisNegative(Object number) in D:\Learn\Automation\CDP\Home Task\Task4\Code\UnitTestProjectForCalc\UnitTestProjectForCalc\NUnitTests\Negative_N.cs:line 46
+]]></stack-trace>
+              </failure>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[  0 identifyed as negative
+  Expected: False
+  But was:  True
+]]></message>
+                  <stack-trace><![CDATA[   at UnitTestProjectForCalc.NUnitTests.Negative_N.CheckisNegative(Object number) in D:\Learn\Automation\CDP\Home Task\Task4\Code\UnitTestProjectForCalc\UnitTestProjectForCalc\NUnitTests\Negative_N.cs:line 46
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+            <test-case id="0-1037" name="CheckisNegative(-0.1d)" fullname="UnitTestProjectForCalc.NUnitTests.Negative_N.CheckisNegative(-0.1d)" methodname="CheckisNegative" classname="UnitTestProjectForCalc.NUnitTests.Negative_N" runstate="Runnable" seed="1342011774" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000064" asserts="1" />
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestFixture" id="0-1039" name="Positive_N" fullname="UnitTestProjectForCalc.NUnitTests.Positive_N" classname="UnitTestProjectForCalc.NUnitTests.Positive_N" runstate="Runnable" testcasecount="3" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000718" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
+          <output><![CDATA[Testing of Positive has been started!
+Testing of Positive has been finished!
+]]></output>
+          <test-suite type="ParameterizedMethod" id="0-1043" name="CheckisNegative" fullname="UnitTestProjectForCalc.NUnitTests.Positive_N.CheckisNegative" classname="UnitTestProjectForCalc.NUnitTests.Positive_N" runstate="Runnable" testcasecount="3" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000515" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
+            <properties>
+              <property name="Description" value="Check is input number Negative" />
+            </properties>
+            <test-case id="0-1040" name="CheckisNegative(&quot;0.1&quot;)" fullname="UnitTestProjectForCalc.NUnitTests.Positive_N.CheckisNegative(&quot;0.1&quot;)" methodname="CheckisNegative" classname="UnitTestProjectForCalc.NUnitTests.Positive_N" runstate="Runnable" seed="1172199828" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000404" asserts="1" />
+            <test-case id="0-1041" name="CheckisNegative(0)" fullname="UnitTestProjectForCalc.NUnitTests.Positive_N.CheckisNegative(0)" methodname="CheckisNegative" classname="UnitTestProjectForCalc.NUnitTests.Positive_N" runstate="Runnable" seed="1281956489" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000045" asserts="1" />
+            <test-case id="0-1042" name="CheckisNegative(-0.1d)" fullname="UnitTestProjectForCalc.NUnitTests.Positive_N.CheckisNegative(-0.1d)" methodname="CheckisNegative" classname="UnitTestProjectForCalc.NUnitTests.Positive_N" runstate="Runnable" seed="254621866" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000036" asserts="1" />
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestFixture" id="0-1044" name="Pow_N" fullname="UnitTestProjectForCalc.NUnitTests.Pow_N" classname="UnitTestProjectForCalc.NUnitTests.Pow_N" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.006472" total="5" passed="0" failed="5" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <output><![CDATA[Testing of Pow has been started!
+Testing of Pow has been finished!
+]]></output>
+          <test-suite type="ParameterizedMethod" id="0-1050" name="CheckPow" fullname="UnitTestProjectForCalc.NUnitTests.Pow_N.CheckPow" classname="UnitTestProjectForCalc.NUnitTests.Pow_N" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.006257" total="5" passed="0" failed="5" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <properties>
+              <property name="Description" value="Check that method returns result from exponentiation of first input value in other one" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="0-1045" name="CheckPow(&quot;5.43&quot;,&quot;4.11&quot;)" fullname="UnitTestProjectForCalc.NUnitTests.Pow_N.CheckPow(&quot;5.43&quot;,&quot;4.11&quot;)" methodname="CheckPow" classname="UnitTestProjectForCalc.NUnitTests.Pow_N" runstate="Runnable" seed="1323775527" result="Failed" label="Error" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.004777" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at UnitTestProjectForCalc.NUnitTests.Pow_N.CheckPow(Object number, Object powNumber) in D:\Learn\Automation\CDP\Home Task\Task4\Code\UnitTestProjectForCalc\UnitTestProjectForCalc\NUnitTests\Pow_N.cs:line 34]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="0-1046" name="CheckPow(5.43d,7.12d)" fullname="UnitTestProjectForCalc.NUnitTests.Pow_N.CheckPow(5.43d,7.12d)" methodname="CheckPow" classname="UnitTestProjectForCalc.NUnitTests.Pow_N" runstate="Runnable" seed="1041030292" result="Failed" label="Error" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000423" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at UnitTestProjectForCalc.NUnitTests.Pow_N.CheckPow(Object number, Object powNumber) in D:\Learn\Automation\CDP\Home Task\Task4\Code\UnitTestProjectForCalc\UnitTestProjectForCalc\NUnitTests\Pow_N.cs:line 34]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="0-1047" name="CheckPow(0,5)" fullname="UnitTestProjectForCalc.NUnitTests.Pow_N.CheckPow(0,5)" methodname="CheckPow" classname="UnitTestProjectForCalc.NUnitTests.Pow_N" runstate="Runnable" seed="989739471" result="Failed" label="Error" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000345" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at UnitTestProjectForCalc.NUnitTests.Pow_N.CheckPow(Object number, Object powNumber) in D:\Learn\Automation\CDP\Home Task\Task4\Code\UnitTestProjectForCalc\UnitTestProjectForCalc\NUnitTests\Pow_N.cs:line 34]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="0-1048" name="CheckPow(-0.1d,0.58d)" fullname="UnitTestProjectForCalc.NUnitTests.Pow_N.CheckPow(-0.1d,0.58d)" methodname="CheckPow" classname="UnitTestProjectForCalc.NUnitTests.Pow_N" runstate="Runnable" seed="1143044501" result="Failed" label="Error" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000309" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at UnitTestProjectForCalc.NUnitTests.Pow_N.CheckPow(Object number, Object powNumber) in D:\Learn\Automation\CDP\Home Task\Task4\Code\UnitTestProjectForCalc\UnitTestProjectForCalc\NUnitTests\Pow_N.cs:line 34]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="0-1049" name="CheckPow(5,0)" fullname="UnitTestProjectForCalc.NUnitTests.Pow_N.CheckPow(5,0)" methodname="CheckPow" classname="UnitTestProjectForCalc.NUnitTests.Pow_N" runstate="Runnable" seed="2059416813" result="Failed" label="Error" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000349" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at UnitTestProjectForCalc.NUnitTests.Pow_N.CheckPow(Object number, Object powNumber) in D:\Learn\Automation\CDP\Home Task\Task4\Code\UnitTestProjectForCalc\UnitTestProjectForCalc\NUnitTests\Pow_N.cs:line 34]]></stack-trace>
+              </failure>
+            </test-case>
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestFixture" id="0-1051" name="Sin_N" fullname="UnitTestProjectForCalc.NUnitTests.Sin_N" classname="UnitTestProjectForCalc.NUnitTests.Sin_N" runstate="Runnable" testcasecount="9" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.001269" total="9" passed="9" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="9">
+          <output><![CDATA[Testing of Sin has been started!
+Testing of Sin has been finished!
+]]></output>
+          <test-suite type="ParameterizedMethod" id="0-1061" name="CheckSin" fullname="UnitTestProjectForCalc.NUnitTests.Sin_N.CheckSin" classname="UnitTestProjectForCalc.NUnitTests.Sin_N" runstate="Runnable" testcasecount="9" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000969" total="9" passed="9" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="9">
+            <properties>
+              <property name="Description" value="Check that method returns Sin of input angle" />
+            </properties>
+            <test-case id="0-1052" name="CheckSin(&quot;0&quot;)" fullname="UnitTestProjectForCalc.NUnitTests.Sin_N.CheckSin(&quot;0&quot;)" methodname="CheckSin" classname="UnitTestProjectForCalc.NUnitTests.Sin_N" runstate="Runnable" seed="1254395169" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000434" asserts="1" />
+            <test-case id="0-1053" name="CheckSin(89.9d)" fullname="UnitTestProjectForCalc.NUnitTests.Sin_N.CheckSin(89.9d)" methodname="CheckSin" classname="UnitTestProjectForCalc.NUnitTests.Sin_N" runstate="Runnable" seed="1764366508" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000132" asserts="1" />
+            <test-case id="0-1054" name="CheckSin(90.1d)" fullname="UnitTestProjectForCalc.NUnitTests.Sin_N.CheckSin(90.1d)" methodname="CheckSin" classname="UnitTestProjectForCalc.NUnitTests.Sin_N" runstate="Runnable" seed="1358340861" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000049" asserts="1" />
+            <test-case id="0-1055" name="CheckSin(90)" fullname="UnitTestProjectForCalc.NUnitTests.Sin_N.CheckSin(90)" methodname="CheckSin" classname="UnitTestProjectForCalc.NUnitTests.Sin_N" runstate="Runnable" seed="1849870552" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000056" asserts="1" />
+            <test-case id="0-1056" name="CheckSin(-179.9d)" fullname="UnitTestProjectForCalc.NUnitTests.Sin_N.CheckSin(-179.9d)" methodname="CheckSin" classname="UnitTestProjectForCalc.NUnitTests.Sin_N" runstate="Runnable" seed="1817679040" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000049" asserts="1" />
+            <test-case id="0-1057" name="CheckSin(-180)" fullname="UnitTestProjectForCalc.NUnitTests.Sin_N.CheckSin(-180)" methodname="CheckSin" classname="UnitTestProjectForCalc.NUnitTests.Sin_N" runstate="Runnable" seed="1061584106" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000046" asserts="1" />
+            <test-case id="0-1058" name="CheckSin(-180.1d)" fullname="UnitTestProjectForCalc.NUnitTests.Sin_N.CheckSin(-180.1d)" methodname="CheckSin" classname="UnitTestProjectForCalc.NUnitTests.Sin_N" runstate="Runnable" seed="443351511" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000046" asserts="1" />
+            <test-case id="0-1059" name="CheckSin(360)" fullname="UnitTestProjectForCalc.NUnitTests.Sin_N.CheckSin(360)" methodname="CheckSin" classname="UnitTestProjectForCalc.NUnitTests.Sin_N" runstate="Runnable" seed="1126417123" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000045" asserts="1" />
+            <test-case id="0-1060" name="CheckSin(360.1d)" fullname="UnitTestProjectForCalc.NUnitTests.Sin_N.CheckSin(360.1d)" methodname="CheckSin" classname="UnitTestProjectForCalc.NUnitTests.Sin_N" runstate="Runnable" seed="1797670352" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000047" asserts="1" />
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestFixture" id="0-1062" name="Sqrt_N" fullname="UnitTestProjectForCalc.NUnitTests.Sqrt_N" classname="UnitTestProjectForCalc.NUnitTests.Sqrt_N" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.002438" total="5" passed="2" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="5">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <output><![CDATA[Testing of Sqrt has been started!
+Testing of Sqrt has been finished!
+]]></output>
+          <test-suite type="ParameterizedMethod" id="0-1068" name="CheckSqrt" fullname="UnitTestProjectForCalc.NUnitTests.Sqrt_N.CheckSqrt" classname="UnitTestProjectForCalc.NUnitTests.Sqrt_N" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.002074" total="5" passed="2" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="5">
+            <properties>
+              <property name="Description" value="Check that method returns square root of input value" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="0-1063" name="CheckSqrt(&quot;-0.2&quot;)" fullname="UnitTestProjectForCalc.NUnitTests.Sqrt_N.CheckSqrt(&quot;-0.2&quot;)" methodname="CheckSqrt" classname="UnitTestProjectForCalc.NUnitTests.Sqrt_N" runstate="Runnable" seed="1883713266" result="Failed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.001236" asserts="1">
+              <failure>
+                <message><![CDATA[  Square root from '-0.2' equals 'NaN', but was '0'
+  Expected: NaN
+  But was:  0.0d
+]]></message>
+                <stack-trace><![CDATA[   at UnitTestProjectForCalc.NUnitTests.Sqrt_N.CheckSqrt(Object number) in D:\Learn\Automation\CDP\Home Task\Task4\Code\UnitTestProjectForCalc\UnitTestProjectForCalc\NUnitTests\Sqrt_N.cs:line 36
+]]></stack-trace>
+              </failure>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[  Square root from '-0.2' equals 'NaN', but was '0'
+  Expected: NaN
+  But was:  0.0d
+]]></message>
+                  <stack-trace><![CDATA[   at UnitTestProjectForCalc.NUnitTests.Sqrt_N.CheckSqrt(Object number) in D:\Learn\Automation\CDP\Home Task\Task4\Code\UnitTestProjectForCalc\UnitTestProjectForCalc\NUnitTests\Sqrt_N.cs:line 36
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+            <test-case id="0-1064" name="CheckSqrt(1.1d)" fullname="UnitTestProjectForCalc.NUnitTests.Sqrt_N.CheckSqrt(1.1d)" methodname="CheckSqrt" classname="UnitTestProjectForCalc.NUnitTests.Sqrt_N" runstate="Runnable" seed="428059457" result="Failed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000344" asserts="1">
+              <failure>
+                <message><![CDATA[  Square root from '1.1' equals '1.04880884817015', but was '1'
+  Expected: 1.0488088481701516d
+  But was:  1.0d
+]]></message>
+                <stack-trace><![CDATA[   at UnitTestProjectForCalc.NUnitTests.Sqrt_N.CheckSqrt(Object number) in D:\Learn\Automation\CDP\Home Task\Task4\Code\UnitTestProjectForCalc\UnitTestProjectForCalc\NUnitTests\Sqrt_N.cs:line 36
+]]></stack-trace>
+              </failure>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[  Square root from '1.1' equals '1.04880884817015', but was '1'
+  Expected: 1.0488088481701516d
+  But was:  1.0d
+]]></message>
+                  <stack-trace><![CDATA[   at UnitTestProjectForCalc.NUnitTests.Sqrt_N.CheckSqrt(Object number) in D:\Learn\Automation\CDP\Home Task\Task4\Code\UnitTestProjectForCalc\UnitTestProjectForCalc\NUnitTests\Sqrt_N.cs:line 36
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+            <test-case id="0-1065" name="CheckSqrt(0.1d)" fullname="UnitTestProjectForCalc.NUnitTests.Sqrt_N.CheckSqrt(0.1d)" methodname="CheckSqrt" classname="UnitTestProjectForCalc.NUnitTests.Sqrt_N" runstate="Runnable" seed="216940839" result="Failed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000339" asserts="1">
+              <failure>
+                <message><![CDATA[  Square root from '0.1' equals '0.316227766016838', but was '0'
+  Expected: 0.31622776601683794d
+  But was:  0.0d
+]]></message>
+                <stack-trace><![CDATA[   at UnitTestProjectForCalc.NUnitTests.Sqrt_N.CheckSqrt(Object number) in D:\Learn\Automation\CDP\Home Task\Task4\Code\UnitTestProjectForCalc\UnitTestProjectForCalc\NUnitTests\Sqrt_N.cs:line 36
+]]></stack-trace>
+              </failure>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[  Square root from '0.1' equals '0.316227766016838', but was '0'
+  Expected: 0.31622776601683794d
+  But was:  0.0d
+]]></message>
+                  <stack-trace><![CDATA[   at UnitTestProjectForCalc.NUnitTests.Sqrt_N.CheckSqrt(Object number) in D:\Learn\Automation\CDP\Home Task\Task4\Code\UnitTestProjectForCalc\UnitTestProjectForCalc\NUnitTests\Sqrt_N.cs:line 36
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+            <test-case id="0-1066" name="CheckSqrt(0)" fullname="UnitTestProjectForCalc.NUnitTests.Sqrt_N.CheckSqrt(0)" methodname="CheckSqrt" classname="UnitTestProjectForCalc.NUnitTests.Sqrt_N" runstate="Runnable" seed="988111266" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000050" asserts="1" />
+            <test-case id="0-1067" name="CheckSqrt(25)" fullname="UnitTestProjectForCalc.NUnitTests.Sqrt_N.CheckSqrt(25)" methodname="CheckSqrt" classname="UnitTestProjectForCalc.NUnitTests.Sqrt_N" runstate="Runnable" seed="1518616228" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000041" asserts="1" />
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestFixture" id="0-1069" name="Sub_N" fullname="UnitTestProjectForCalc.NUnitTests.Sub_N" classname="UnitTestProjectForCalc.NUnitTests.Sub_N" runstate="Runnable" testcasecount="3" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000847" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
+          <output><![CDATA[Testing of Sub has been started!
+Testing of Sub has been finished!
+]]></output>
+          <test-suite type="ParameterizedMethod" id="0-1073" name="CheckSub" fullname="UnitTestProjectForCalc.NUnitTests.Sub_N.CheckSub" classname="UnitTestProjectForCalc.NUnitTests.Sub_N" runstate="Runnable" testcasecount="3" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000614" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
+            <properties>
+              <property name="Description" value="Check that method returns result from subtraction of two input values" />
+            </properties>
+            <test-case id="0-1070" name="CheckSub(&quot;1854&quot;,&quot;-254&quot;)" fullname="UnitTestProjectForCalc.NUnitTests.Sub_N.CheckSub(&quot;1854&quot;,&quot;-254&quot;)" methodname="CheckSub" classname="UnitTestProjectForCalc.NUnitTests.Sub_N" runstate="Runnable" seed="192529446" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000501" asserts="1" />
+            <test-case id="0-1071" name="CheckSub(1,5)" fullname="UnitTestProjectForCalc.NUnitTests.Sub_N.CheckSub(1,5)" methodname="CheckSub" classname="UnitTestProjectForCalc.NUnitTests.Sub_N" runstate="Runnable" seed="1160219000" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000047" asserts="1" />
+            <test-case id="0-1072" name="CheckSub(-658,-958)" fullname="UnitTestProjectForCalc.NUnitTests.Sub_N.CheckSub(-658,-958)" methodname="CheckSub" classname="UnitTestProjectForCalc.NUnitTests.Sub_N" runstate="Runnable" seed="84148138" result="Passed" start-time="2017-12-12 16:03:36Z" end-time="2017-12-12 16:03:36Z" duration="0.000037" asserts="1" />
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

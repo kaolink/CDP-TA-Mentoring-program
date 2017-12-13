@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="4a4a7fb9-d87c-4563-9b59-05a1141ec90c" name="Dzmitry_Tarasenka@EPBYMOGW0132 2017-12-12 15:51:58" runUser="MINSK\Dzmitry_Tarasenka" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="4419c32f-dfa3-4085-b549-b4d549e1cc03">
+    <Deployment userDeploymentRoot="d:\Learn\Automation\CDP" useDefaultDeploymentRoot="false" runDeploymentRoot="Dzmitry_Tarasenka_EPBYMOGW0132 2017-12-12 15_51_58" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Properties />
+  </TestSettings>
+  <Times creation="2017-12-12T15:51:58.2284446+03:00" queuing="2017-12-12T15:51:58.5763659+03:00" start="2017-12-12T15:51:58.6390310+03:00" finish="2017-12-12T15:51:59.1049018+03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="11" executed="11" passed="7" error="0" failed="4" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CheckSqrt" storage="unittestprojectforcalc.dll" id="d9d09d66-fb80-e631-3207-45d0b8937577">
+      <Execution id="ca8d0d23-a293-46aa-8f33-f75f985dbaeb" />
+      <TestMethod codeBase="d:/Learn/Automation/CDP/Home Task/Task4/Code/UnitTestProjectForCalc/UnitTestProjectForCalc/bin/Debug/UnitTestProjectForCalc.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestProjectForCalc.MSTests.Sqrt_MS, UnitTestProjectForCalc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckSqrt" />
+    </UnitTest>
+    <UnitTest name="CheckPow" storage="unittestprojectforcalc.dll" id="1324e1f4-963c-2d65-e796-579d6d6df501">
+      <Execution id="f624a9b7-da13-42c7-95ac-bf2f5e274e6a" />
+      <TestMethod codeBase="d:/Learn/Automation/CDP/Home Task/Task4/Code/UnitTestProjectForCalc/UnitTestProjectForCalc/bin/Debug/UnitTestProjectForCalc.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestProjectForCalc.MSTests.Pow_MS, UnitTestProjectForCalc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckPow" />
+    </UnitTest>
+    <UnitTest name="CheckisPositive" storage="unittestprojectforcalc.dll" id="8c601e43-c50a-eaf7-8360-d5d998b23e25">
+      <Execution id="16458e8d-370d-4cb0-a146-1ab20a04c269" />
+      <TestMethod codeBase="d:/Learn/Automation/CDP/Home Task/Task4/Code/UnitTestProjectForCalc/UnitTestProjectForCalc/bin/Debug/UnitTestProjectForCalc.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestProjectForCalc.MSTests.Positive_MS, UnitTestProjectForCalc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckisPositive" />
+    </UnitTest>
+    <UnitTest name="CheckCos" storage="unittestprojectforcalc.dll" id="d0c2cb20-7903-4dd8-54a2-01d9fe9b2190">
+      <Execution id="8623a655-c408-4fac-8324-2c8758d1750c" />
+      <TestMethod codeBase="d:/Learn/Automation/CDP/Home Task/Task4/Code/UnitTestProjectForCalc/UnitTestProjectForCalc/bin/Debug/UnitTestProjectForCalc.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestProjectForCalc.MSTests.Cos_MS, UnitTestProjectForCalc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckCos" />
+    </UnitTest>
+    <UnitTest name="CheckAdd" storage="unittestprojectforcalc.dll" id="0234753b-91ef-09af-b10d-d6fa6a9007df">
+      <Execution id="94a9bd69-c983-4cb5-922e-42a8f4083b52" />
+      <TestMethod codeBase="d:/Learn/Automation/CDP/Home Task/Task4/Code/UnitTestProjectForCalc/UnitTestProjectForCalc/bin/Debug/UnitTestProjectForCalc.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestProjectForCalc.MSTests.Add_MS, UnitTestProjectForCalc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckAdd" />
+    </UnitTest>
+    <UnitTest name="CheckSin" storage="unittestprojectforcalc.dll" id="84e73a0a-bd59-06e3-d164-5bf2b40b0ecc">
+      <Execution id="d154dd98-0c3d-453e-9a24-eaabddb3c97e" />
+      <TestMethod codeBase="d:/Learn/Automation/CDP/Home Task/Task4/Code/UnitTestProjectForCalc/UnitTestProjectForCalc/bin/Debug/UnitTestProjectForCalc.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestProjectForCalc.MSTests.Sin_MS, UnitTestProjectForCalc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckSin" />
+    </UnitTest>
+    <UnitTest name="CheckDiv" storage="unittestprojectforcalc.dll" id="b38acc9b-47bd-71e6-0ff4-786fde3af222">
+      <Execution id="9bd83cd6-7590-4317-86bd-f2b38ecf95bb" />
+      <TestMethod codeBase="d:/Learn/Automation/CDP/Home Task/Task4/Code/UnitTestProjectForCalc/UnitTestProjectForCalc/bin/Debug/UnitTestProjectForCalc.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestProjectForCalc.MSTests.Divide_MS, UnitTestProjectForCalc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckDiv" />
+    </UnitTest>
+    <UnitTest name="CheckAbs" storage="unittestprojectforcalc.dll" id="6fee2f8f-d40d-bb86-6f13-6e27d5bbe072">
+      <Execution id="aca0083a-b055-4f93-a449-827c924c5ff9" />
+      <TestMethod codeBase="d:/Learn/Automation/CDP/Home Task/Task4/Code/UnitTestProjectForCalc/UnitTestProjectForCalc/bin/Debug/UnitTestProjectForCalc.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestProjectForCalc.MSTests.Abs_MS, UnitTestProjectForCalc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckAbs" />
+    </UnitTest>
+    <UnitTest name="CheckMultiply" storage="unittestprojectforcalc.dll" id="21693bd4-2ad0-36b0-0ee8-43906057f9b6">
+      <Execution id="fcce3200-febf-4cb2-b641-34083b5b375b" />
+      <TestMethod codeBase="d:/Learn/Automation/CDP/Home Task/Task4/Code/UnitTestProjectForCalc/UnitTestProjectForCalc/bin/Debug/UnitTestProjectForCalc.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestProjectForCalc.MSTests.Multiply_MS, UnitTestProjectForCalc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckMultiply" />
+    </UnitTest>
+    <UnitTest name="CheckSub" storage="unittestprojectforcalc.dll" id="f906723f-cae4-8f4c-cd8d-f5845227c8f5">
+      <Execution id="34633402-0a99-4b4d-baf8-dc3790b27afc" />
+      <TestMethod codeBase="d:/Learn/Automation/CDP/Home Task/Task4/Code/UnitTestProjectForCalc/UnitTestProjectForCalc/bin/Debug/UnitTestProjectForCalc.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestProjectForCalc.MSTests.Sub_MS, UnitTestProjectForCalc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckSub" />
+    </UnitTest>
+    <UnitTest name="CheckisNegative" storage="unittestprojectforcalc.dll" id="0f473f7b-0480-84f6-1883-15e03895dd65">
+      <Execution id="d7e83dad-88ce-426f-afa7-7ec0aba00fcb" />
+      <TestMethod codeBase="d:/Learn/Automation/CDP/Home Task/Task4/Code/UnitTestProjectForCalc/UnitTestProjectForCalc/bin/Debug/UnitTestProjectForCalc.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestProjectForCalc.MSTests.Negative_MS, UnitTestProjectForCalc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckisNegative" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="6fee2f8f-d40d-bb86-6f13-6e27d5bbe072" executionId="aca0083a-b055-4f93-a449-827c924c5ff9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0234753b-91ef-09af-b10d-d6fa6a9007df" executionId="94a9bd69-c983-4cb5-922e-42a8f4083b52" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d0c2cb20-7903-4dd8-54a2-01d9fe9b2190" executionId="8623a655-c408-4fac-8324-2c8758d1750c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b38acc9b-47bd-71e6-0ff4-786fde3af222" executionId="9bd83cd6-7590-4317-86bd-f2b38ecf95bb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="21693bd4-2ad0-36b0-0ee8-43906057f9b6" executionId="fcce3200-febf-4cb2-b641-34083b5b375b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0f473f7b-0480-84f6-1883-15e03895dd65" executionId="d7e83dad-88ce-426f-afa7-7ec0aba00fcb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8c601e43-c50a-eaf7-8360-d5d998b23e25" executionId="16458e8d-370d-4cb0-a146-1ab20a04c269" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1324e1f4-963c-2d65-e796-579d6d6df501" executionId="f624a9b7-da13-42c7-95ac-bf2f5e274e6a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="84e73a0a-bd59-06e3-d164-5bf2b40b0ecc" executionId="d154dd98-0c3d-453e-9a24-eaabddb3c97e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d9d09d66-fb80-e631-3207-45d0b8937577" executionId="ca8d0d23-a293-46aa-8f33-f75f985dbaeb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f906723f-cae4-8f4c-cd8d-f5845227c8f5" executionId="34633402-0a99-4b4d-baf8-dc3790b27afc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="aca0083a-b055-4f93-a449-827c924c5ff9" testId="6fee2f8f-d40d-bb86-6f13-6e27d5bbe072" testName="CheckAbs" computerName="EPBYMOGW0132" duration="00:00:00.0411005" startTime="2017-12-12T15:51:58.7117455+03:00" endTime="2017-12-12T15:51:59.0292010+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aca0083a-b055-4f93-a449-827c924c5ff9">
+      <Output>
+        <StdOut>Testing of Abs has been started!
+Testing of Abs has been finished!</StdOut>
+        <ErrorInfo>
+          <Message>Test method UnitTestProjectForCalc.MSTests.Abs_MS.CheckAbs threw exception: 
+Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException: Assert.AreEqual failed. Expected:&lt;0.2&gt;. Actual:&lt;0&gt;. </Message>
+          <StackTrace>   at UnitTestProjectForCalc.MSTests.Abs_MS.CheckAbs() in D:\Learn\Automation\CDP\Home Task\Task4\Code\UnitTestProjectForCalc\UnitTestProjectForCalc\MSTests\Abs_MS.cs:line 33
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="94a9bd69-c983-4cb5-922e-42a8f4083b52" testId="0234753b-91ef-09af-b10d-d6fa6a9007df" testName="CheckAdd" computerName="EPBYMOGW0132" duration="00:00:00.0005820" startTime="2017-12-12T15:51:59.0302033+03:00" endTime="2017-12-12T15:51:59.0327098+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="94a9bd69-c983-4cb5-922e-42a8f4083b52">
+      <Output>
+        <StdOut>Testing of Add has been started!
+Testing of Add has been finished!</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8623a655-c408-4fac-8324-2c8758d1750c" testId="d0c2cb20-7903-4dd8-54a2-01d9fe9b2190" testName="CheckCos" computerName="EPBYMOGW0132" duration="00:00:00.0005468" startTime="2017-12-12T15:51:59.0337125+03:00" endTime="2017-12-12T15:51:59.0357250+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8623a655-c408-4fac-8324-2c8758d1750c">
+      <Output>
+        <StdOut>Testing of Cos has been started!
+Testing of Cos has been finished!</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9bd83cd6-7590-4317-86bd-f2b38ecf95bb" testId="b38acc9b-47bd-71e6-0ff4-786fde3af222" testName="CheckDiv" computerName="EPBYMOGW0132" duration="00:00:00.0003094" startTime="2017-12-12T15:51:59.0362193+03:00" endTime="2017-12-12T15:51:59.0382246+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9bd83cd6-7590-4317-86bd-f2b38ecf95bb">
+      <Output>
+        <StdOut>Testing of Divide has been started!
+Testing of Divide has been finished!</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fcce3200-febf-4cb2-b641-34083b5b375b" testId="21693bd4-2ad0-36b0-0ee8-43906057f9b6" testName="CheckMultiply" computerName="EPBYMOGW0132" duration="00:00:00.0002905" startTime="2017-12-12T15:51:59.0392272+03:00" endTime="2017-12-12T15:51:59.0407311+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fcce3200-febf-4cb2-b641-34083b5b375b">
+      <Output>
+        <StdOut>Testing of Multiply has been started!
+Testing of Multiply has been finished!</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d7e83dad-88ce-426f-afa7-7ec0aba00fcb" testId="0f473f7b-0480-84f6-1883-15e03895dd65" testName="CheckisNegative" computerName="EPBYMOGW0132" duration="00:00:00.0027189" startTime="2017-12-12T15:51:59.0422355+03:00" endTime="2017-12-12T15:51:59.0462483+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d7e83dad-88ce-426f-afa7-7ec0aba00fcb">
+      <Output>
+        <StdOut>Testing of Negative has been started!
+Testing of Negative has been finished!</StdOut>
+        <ErrorInfo>
+          <Message>Test method UnitTestProjectForCalc.MSTests.Negative_MS.CheckisNegative threw exception: 
+Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException: Assert.AreEqual failed. Expected:&lt;False&gt;. Actual:&lt;True&gt;. </Message>
+          <StackTrace>   at UnitTestProjectForCalc.MSTests.Negative_MS.CheckisNegative() in D:\Learn\Automation\CDP\Home Task\Task4\Code\UnitTestProjectForCalc\UnitTestProjectForCalc\MSTests\Negative_MS.cs:line 40
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="16458e8d-370d-4cb0-a146-1ab20a04c269" testId="8c601e43-c50a-eaf7-8360-d5d998b23e25" testName="CheckisPositive" computerName="EPBYMOGW0132" duration="00:00:00.0006961" startTime="2017-12-12T15:51:59.0477500+03:00" endTime="2017-12-12T15:51:59.0502565+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="16458e8d-370d-4cb0-a146-1ab20a04c269">
+      <Output>
+        <StdOut>Testing of Positive has been started!
+Testing of Positive has been finished!</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f624a9b7-da13-42c7-95ac-bf2f5e274e6a" testId="1324e1f4-963c-2d65-e796-579d6d6df501" testName="CheckPow" computerName="EPBYMOGW0132" duration="00:00:00.0039172" startTime="2017-12-12T15:51:59.0517633+03:00" endTime="2017-12-12T15:51:59.0577766+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f624a9b7-da13-42c7-95ac-bf2f5e274e6a">
+      <Output>
+        <StdOut>Testing of Pow has been started!
+Testing of Pow has been finished!</StdOut>
+        <ErrorInfo>
+          <Message>Test method UnitTestProjectForCalc.MSTests.Pow_MS.CheckPow threw exception: 
+System.NotFiniteNumberException: Wrong input</Message>
+          <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at UnitTestProjectForCalc.MSTests.Pow_MS.CheckPow() in D:\Learn\Automation\CDP\Home Task\Task4\Code\UnitTestProjectForCalc\UnitTestProjectForCalc\MSTests\Pow_MS.cs:line 23
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d154dd98-0c3d-453e-9a24-eaabddb3c97e" testId="84e73a0a-bd59-06e3-d164-5bf2b40b0ecc" testName="CheckSin" computerName="EPBYMOGW0132" duration="00:00:00.0005802" startTime="2017-12-12T15:51:59.0587792+03:00" endTime="2017-12-12T15:51:59.0617884+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d154dd98-0c3d-453e-9a24-eaabddb3c97e">
+      <Output>
+        <StdOut>Testing of Sin has been started!
+Testing of Sin has been finished!</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ca8d0d23-a293-46aa-8f33-f75f985dbaeb" testId="d9d09d66-fb80-e631-3207-45d0b8937577" testName="CheckSqrt" computerName="EPBYMOGW0132" duration="00:00:00.0024539" startTime="2017-12-12T15:51:59.0627899+03:00" endTime="2017-12-12T15:51:59.0673032+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ca8d0d23-a293-46aa-8f33-f75f985dbaeb">
+      <Output>
+        <StdOut>Testing of Sqrt has been started!
+Testing of Sqrt has been finished!</StdOut>
+        <ErrorInfo>
+          <Message>Test method UnitTestProjectForCalc.MSTests.Sqrt_MS.CheckSqrt threw exception: 
+Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException: Assert.AreEqual failed. Expected:&lt;NaN&gt;. Actual:&lt;0&gt;. </Message>
+          <StackTrace>   at UnitTestProjectForCalc.MSTests.Sqrt_MS.CheckSqrt() in D:\Learn\Automation\CDP\Home Task\Task4\Code\UnitTestProjectForCalc\UnitTestProjectForCalc\MSTests\Sqrt_MS.cs:line 31
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="34633402-0a99-4b4d-baf8-dc3790b27afc" testId="f906723f-cae4-8f4c-cd8d-f5845227c8f5" testName="CheckSub" computerName="EPBYMOGW0132" duration="00:00:00.0007340" startTime="2017-12-12T15:51:59.0693070+03:00" endTime="2017-12-12T15:51:59.0728165+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="34633402-0a99-4b4d-baf8-dc3790b27afc">
+      <Output>
+        <StdOut>Testing of Sub has been started!
+Testing of Sub has been finished!</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
